@@ -1,0 +1,4 @@
+Misc Powershell scripts
+togglesql	toggles the named sql server service
+toggleora	toggles the local oracle service
+
