@@ -1,4 +1,4 @@
-﻿# PowerShell cmdlet to check a service's status
+# PowerShell cmdlet to check a service's status
 $services = "OracleServiceORCL", "OracleOraDb10g_home1TNSListener", "OracleOraDb10g_home1iSQL*Plus", "OracleDBConsoleorcl"
 $servicePrior = get-Service $services[0]
 $services[0] + " is currently " + $servicePrior.status
@@ -27,5 +27,3 @@ foreach ($serviceName in $services)
 	}
 }
 
-
-"The server is now: " + $action

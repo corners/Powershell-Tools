@@ -21,4 +21,3 @@ foreach ($serviceName in $services)
 	}
 }
 
-"The server is now: " + $action
